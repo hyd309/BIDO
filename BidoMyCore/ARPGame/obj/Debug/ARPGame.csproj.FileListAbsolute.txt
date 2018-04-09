@@ -1,0 +1,6 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\bin\Debug\ARPGame.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\bin\Debug\ARPGame.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\bin\Debug\ARPGame.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\obj\Debug\ARPGame.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\obj\Debug\ARPGame.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ARPGame\obj\Debug\ARPGame.pdb

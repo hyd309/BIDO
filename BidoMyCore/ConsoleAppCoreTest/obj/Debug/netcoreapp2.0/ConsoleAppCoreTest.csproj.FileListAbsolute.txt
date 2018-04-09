@@ -1,0 +1,10 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\obj\Debug\netcoreapp2.0\ConsoleAppCoreTest.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\obj\Debug\netcoreapp2.0\ConsoleAppCoreTest.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\obj\Debug\netcoreapp2.0\ConsoleAppCoreTest.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\bin\Debug\netcoreapp2.0\ConsoleAppCoreTest.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\bin\Debug\netcoreapp2.0\ConsoleAppCoreTest.runtimeconfig.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\bin\Debug\netcoreapp2.0\ConsoleAppCoreTest.runtimeconfig.dev.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\bin\Debug\netcoreapp2.0\ConsoleAppCoreTest.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\bin\Debug\netcoreapp2.0\ConsoleAppCoreTest.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\obj\Debug\netcoreapp2.0\ConsoleAppCoreTest.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppCoreTest\obj\Debug\netcoreapp2.0\ConsoleAppCoreTest.pdb

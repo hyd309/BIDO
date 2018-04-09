@@ -1,0 +1,8 @@
+2018-03-06 15:52:33,424 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 15:52:33,654 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000
+2018-03-06 15:53:04,376 [1] INFO  TableStoreConsole.Location - 200批量提交成功
+2018-03-06 15:53:28,775 [1] ERROR TableStoreConsole.Location - 200批量提交有出错记录
+2018-03-06 15:53:51,310 [1] ERROR TableStoreConsole.Location - 批量提交 问题数据在第【1】行
+2018-03-06 15:57:22,228 [1] ERROR TableStoreConsole.Location - Operation is not supported on this platform.
+2018-03-06 15:58:57,909 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 15:58:58,328 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000

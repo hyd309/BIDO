@@ -1,0 +1,12 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\RabbitMQClient.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\RabbitMQClient.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\RabbitMQClient.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\RabbitMQ.Client.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\bin\Debug\RabbitMQ.Client.xml
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\obj\Debug\RabbitMQClient.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\obj\Debug\RabbitMQClient.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\obj\Debug\RabbitMQClient.csproj.CopyComplete
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\obj\Debug\RabbitMQClient.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\RabbitMQClient\obj\Debug\RabbitMQClient.pdb

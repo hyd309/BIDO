@@ -1,0 +1,14 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=TableStoreWebApp
+--content-root=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Home\About.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Home\Contact.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Home\Index.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\OTSSync\Index.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\OTSSync\Success.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Shared\Error.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Shared\_Layout.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\_ViewImports.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\_ViewStart.cshtml

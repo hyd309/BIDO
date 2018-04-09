@@ -1,0 +1,6 @@
+2018-03-06 17:34:19,235 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 17:34:19,360 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000
+2018-03-06 17:34:47,346 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 17:34:47,488 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000
+2018-03-06 17:35:09,002 [1] INFO  TableStoreConsole.Location - 200批量提交成功
+2018-03-06 17:35:17,117 [1] INFO  TableStoreConsole.Location - 200批量提交成功

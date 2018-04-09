@@ -1,0 +1,10 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WinClient.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WinClient.Form1.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WinClient.csproj.GenerateResource.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WinClient.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

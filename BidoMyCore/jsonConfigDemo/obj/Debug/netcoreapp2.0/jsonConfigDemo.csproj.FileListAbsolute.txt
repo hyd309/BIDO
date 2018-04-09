@@ -1,0 +1,12 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\jsonConfigDemo.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\jsonConfigDemo.runtimeconfig.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\jsonConfigDemo.runtimeconfig.dev.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\jsonConfigDemo.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\Class.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\bin\Debug\netcoreapp2.0\jsonConfigDemo.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\jsonConfigDemo\obj\Debug\netcoreapp2.0\jsonConfigDemo.pdb

@@ -1,0 +1,6 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\bin\Debug\UDPServer.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\bin\Debug\UDPServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\bin\Debug\UDPServer.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\obj\Debug\UDPServer.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\obj\Debug\UDPServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\UDPServer\obj\Debug\UDPServer.pdb

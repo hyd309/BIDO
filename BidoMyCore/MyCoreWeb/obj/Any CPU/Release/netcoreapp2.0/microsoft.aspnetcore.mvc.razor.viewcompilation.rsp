@@ -1,0 +1,14 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=MyCoreWeb
+--content-root=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\About.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\Contact.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\Error.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\Index.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\_Layout.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\_ValidationScriptsPartial.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\_ViewImports.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Pages\_ViewStart.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Views\Home2\Index.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\Views\Home\Index.cshtml

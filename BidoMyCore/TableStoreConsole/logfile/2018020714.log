@@ -1,0 +1,6 @@
+2018-02-07 14:38:11,008 [1] INFO  Bido - -------开始执行Bido123------
+2018-02-07 14:38:11,179 [1] DEBUG TableStoreConsole.Route - select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed,speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from Vehicle_Route where id between 0 and 100000
+2018-02-07 14:42:16,301 [1] INFO  Bido - -------开始执行Bido123------
+2018-02-07 14:42:16,498 [1] DEBUG TableStoreConsole.Route - select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed,speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from Vehicle_Route where id between 0 and 100000
+2018-02-07 14:52:37,860 [1] INFO  Bido - -------开始执行Bido123------
+2018-02-07 14:52:38,007 [1] DEBUG TableStoreConsole.Route - select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed,speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from Vehicle_Route where id between 0 and 100000

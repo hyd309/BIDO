@@ -1,0 +1,10 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\bin\Debug\TPCServer.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\bin\Debug\TPCServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\bin\Debug\TPCServer.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.Properties.Resources.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.csproj.GenerateResource.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.frm_server.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TPCServer\obj\Debug\TPCServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\appSetting.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\log4Net.Config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\TableStoreConsole.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\TableStoreConsole.runtimeconfig.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\TableStoreConsole.runtimeconfig.dev.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\TableStoreConsole.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\TableStoreConsole.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\obj\Release\netcoreapp2.0\TableStoreConsole.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\Aliyun.TableStore.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\Google.ProtocolBuffers.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreConsole\bin\Release\netcoreapp2.0\Google.ProtocolBuffers.Serialization.dll

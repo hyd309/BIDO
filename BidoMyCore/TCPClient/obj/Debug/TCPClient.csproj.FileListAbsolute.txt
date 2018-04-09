@@ -1,0 +1,10 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.Properties.Resources.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.csproj.GenerateResource.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\bin\Debug\TCPClient.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\bin\Debug\TCPClient.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\bin\Debug\TCPClient.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.frmClient.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\TCPClient\obj\Debug\TCPClient.csprojResolveAssemblyReference.cache

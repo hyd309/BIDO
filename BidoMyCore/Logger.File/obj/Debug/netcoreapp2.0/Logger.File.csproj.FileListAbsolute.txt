@@ -1,0 +1,9 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\bin\Debug\netcoreapp2.0\Logger.File.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\bin\Debug\netcoreapp2.0\Logger.File.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\bin\Debug\netcoreapp2.0\Logger.File.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\Logger.File\obj\Debug\netcoreapp2.0\Logger.File.pdb

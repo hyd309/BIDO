@@ -1,0 +1,12 @@
+2018-03-06 16:01:08,102 [1] INFO  TableStoreConsole.Location - 数据，操作成功！
+2018-03-06 16:02:21,878 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 16:02:22,018 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000
+2018-03-06 16:02:28,293 [1] INFO  TableStoreConsole.Location - 数据，操作成功！
+2018-03-06 16:28:59,559 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 16:28:59,731 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000
+2018-03-06 16:30:07,872 [1] INFO  TableStoreConsole.Location - 数据，操作成功！
+2018-03-06 16:35:34,365 [1] ERROR TableStoreConsole.Location - 错误行重试PUT失败:--参数信息：PrimaryKey：d:100000000003265;t:63622621819000【2017/2/14 6:30:19】;，AttributeColumnslatitude:22501785;longitude:113916475;speed:0;direct:0;height:0;
+2018-03-06 16:35:59,646 [1] INFO  TableStoreConsole.Location - 数据，操作成功！
+2018-03-06 16:36:02,200 [1] ERROR TableStoreConsole.Location - 错误行重试PUT失败:--参数信息：PrimaryKey：d:100000000003243;t:63622622601000【2017/2/14 6:43:21】;，AttributeColumnslatitude:22501837;longitude:113916407;speed:2;direct:0;height:0;
+2018-03-06 16:41:04,696 [1] INFO  Bido - -------开始执行Bido123------
+2018-03-06 16:41:04,837 [1] DEBUG TableStoreConsole.Location - select distinct device_code,gps_time,latitude,longitude,speed,direct from Device_Location_20170214 where id between 0 and 100000

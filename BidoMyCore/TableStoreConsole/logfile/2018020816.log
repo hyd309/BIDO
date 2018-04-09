@@ -1,0 +1,77 @@
+2018-02-08 16:01:31,775 [1] INFO  Bido - -------开始执行Bido123------
+2018-02-08 16:01:31,900 [1] DEBUG TableStoreConsole.Route - select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed,speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from Vehicle_Route where id between 0 and 100000
+2018-02-08 16:01:32,112 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190002;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:50,171 [1] INFO  Bido - -------开始执行Bido123------
+2018-02-08 16:01:50,316 [1] DEBUG TableStoreConsole.Route - select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed,speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from Vehicle_Route where id between 0 and 100000
+2018-02-08 16:01:50,483 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190002;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:52,526 [1] INFO  TableStoreConsole.Route - 200批量提交成功
+2018-02-08 16:01:52,639 [1] INFO  TableStoreConsole.Route - 400批量提交成功
+2018-02-08 16:01:52,742 [1] INFO  TableStoreConsole.Route - 600批量提交成功
+2018-02-08 16:01:52,841 [1] INFO  TableStoreConsole.Route - 800批量提交成功
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 10:31:07数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,842 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 1000批量提交成功
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190006;2016/6/27 15:41:06数据库记录：
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,957 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:52,958 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 1200批量提交成功
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 10:31:07数据库记录：
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,067 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,068 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190010;2016/6/2 14:58:49数据库记录：
+2018-02-08 16:01:53,176 [1] INFO  TableStoreConsole.Route - 1400批量提交成功
+2018-02-08 16:01:53,286 [1] INFO  TableStoreConsole.Route - 1600批量提交成功
+2018-02-08 16:01:53,398 [1] INFO  TableStoreConsole.Route - 1800批量提交成功
+2018-02-08 16:01:53,398 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190022;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,398 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190022;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,398 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190022;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,502 [1] INFO  TableStoreConsole.Route - 2000批量提交成功
+2018-02-08 16:01:53,503 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190022;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,503 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190022;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,608 [1] INFO  TableStoreConsole.Route - 2200批量提交成功
+2018-02-08 16:01:53,609 [1] INFO  TableStoreConsole.Route - 发现重复记录101601190023;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:53,711 [1] INFO  TableStoreConsole.Route - 2400批量提交成功
+2018-02-08 16:01:53,818 [1] INFO  TableStoreConsole.Route - 2600批量提交成功
+2018-02-08 16:01:53,922 [1] INFO  TableStoreConsole.Route - 2800批量提交成功
+2018-02-08 16:01:53,922 [1] INFO  TableStoreConsole.Route - 发现重复记录313800000001;2015/3/10 19:11:11数据库记录：
+2018-02-08 16:01:53,922 [1] INFO  TableStoreConsole.Route - 发现重复记录313800000001;2015/3/10 19:11:11数据库记录：
+2018-02-08 16:01:54,024 [1] INFO  TableStoreConsole.Route - 3000批量提交成功
+2018-02-08 16:01:54,129 [1] INFO  TableStoreConsole.Route - 3200批量提交成功
+2018-02-08 16:01:54,240 [1] INFO  TableStoreConsole.Route - 3400批量提交成功
+2018-02-08 16:01:54,364 [1] INFO  TableStoreConsole.Route - 3600批量提交成功
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录531512250019;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2000/1/1 8:00:00数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/3/10 19:11:11数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/3/10 19:11:18数据库记录：
+2018-02-08 16:01:54,365 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/3/10 19:11:18数据库记录：
+2018-02-08 16:01:54,366 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2016/3/3 9:30:49数据库记录：
+2018-02-08 16:01:54,366 [1] INFO  TableStoreConsole.Route - 发现重复记录813800000001;2015/3/10 19:11:18数据库记录：
+2018-02-08 16:01:54,531 [1] INFO  TableStoreConsole.Route - 3800批量提交成功
+2018-02-08 16:01:54,640 [1] INFO  TableStoreConsole.Route - 4000批量提交成功
+2018-02-08 16:01:54,641 [1] INFO  TableStoreConsole.Route - 发现重复记录531512080001;2015/1/2 11:04:05数据库记录：
+2018-02-08 16:01:54,641 [1] INFO  TableStoreConsole.Route - 发现重复记录531512080001;2016/1/19 18:18:15数据库记录：
+2018-02-08 16:01:54,750 [1] INFO  TableStoreConsole.Route - 4200批量提交成功

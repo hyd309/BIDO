@@ -1,0 +1,19 @@
+﻿@using Microsoft.Extensions.Options
+@*@inject IOptions<MyCoreWeb.Models.ClassConifg> _classAccesser     不能实现reload配置文件信息*@
+
+@inject IOptionsSnapshot<MyCoreWeb.Models.ClassConifg> _classAccesser
+ @*// 可以实现reload配置文件信息*@
+@{
+    ViewData["Title"] = _classAccesser.Value.Name;
+}
+
+<h1>@_classAccesser.Value.Name</h1>
+<h2>@_classAccesser.Value.Info</h2>
+<div>
+    @foreach (var item in _classAccesser.Value.Students)
+    {
+        <span>Name: @item.name </span>
+        <span>Name: @item.age </span>
+    }
+</div>
+

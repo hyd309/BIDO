@@ -1,0 +1,11 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\bin\Release\netcoreapp2.0\MyCoreWeb.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\bin\Release\netcoreapp2.0\MyCoreWeb.runtimeconfig.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\bin\Release\netcoreapp2.0\MyCoreWeb.runtimeconfig.dev.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\bin\Release\netcoreapp2.0\MyCoreWeb.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\bin\Release\netcoreapp2.0\MyCoreWeb.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\MyCoreWeb\obj\Release\netcoreapp2.0\MyCoreWeb.pdb

@@ -1,0 +1,15 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\ConsoleAppLog.deps.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\ConsoleAppLog.runtimeconfig.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\ConsoleAppLog.runtimeconfig.dev.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\ConsoleAppLog.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.AssemblyInfoInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.AssemblyInfo.cs
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\ConsoleAppLog.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\Logger.File.dll
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\Logger.File.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\bin\Debug\netcoreapp2.0\appsettings.json
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\ConsoleAppLog\obj\Debug\netcoreapp2.0\ConsoleAppLog.csproj.CopyComplete

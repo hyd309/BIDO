@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "表格批处理程序";
+}
+
+<form action="/OTSSync/SyncData" method="post">
+    <br />
+    <div>
+        route表名：<input type="text" name="route" value="Vehicle_Route" />
+        location表名：<input type="text" name="location" value="" />
+        Event表名：<input type="text" name="event" value="" />
+        <input type="submit" value="Route同步" />
+    </div>
+    <div>
+        <a href="/OTSSync/Search">查询界面</a>
+    </div>
+</form>
+

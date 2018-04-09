@@ -1,0 +1,15 @@
+﻿@model MyCoreWeb.Models.ClassConifg
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<h1>@Model.Name</h1>
+<h2>@Model.Info</h2>
+<div>
+    @foreach (var item in Model.Students)
+    {
+        <span>Name: @item.name </span>
+        <span>Name: @item.age </span>
+    }
+</div>
+

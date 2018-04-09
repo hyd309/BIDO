@@ -1,0 +1,12 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=192.168.1.8;Initial Catalog=BYL1;User Id=sa;Password=whldzbd;"
+  },
+  "TableStore": {
+    "endPointPublic": "https://TableStore01.cn-beijing.ots.aliyuncs.com",
+    "endPointPrivate": "https://TableStore01.cn-beijing.ots-internal.aliyuncs.com",
+    "accessKeyID": "LTAItCwBq6E4ZCPb",
+    "accessKeySecret": "UtgctsUByJysZgvhXl9n8v5m0xnwMS",
+    "instanceName": "TableStore01"
+  }
+}

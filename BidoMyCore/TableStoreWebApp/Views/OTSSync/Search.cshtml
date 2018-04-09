@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h2>Search</h2>
+
+<form action="/OTSSync/SearchLocation" method="post">
+    <br />
+    <div>
+        轨迹-设备id：<input type="text" name="d" />
+        定位时间：<input type="text" name="t" />
+        <input type="submit" value="轨迹 查询" />
+    </div>
+</form>
+<form action="/OTSSync/SearchEvent" method="post">
+    <br />
+    <div>
+        时间-设备id：<input type="text" name="d" />
+        事件时间：<input type="text" name="et" />
+        事件ID：<input type="text" name="ei" />
+        <input type="submit" value="事件 查询" />
+    </div>
+</form>
+<form action="/OTSSync/SearchRoute" method="post">
+    <br />
+    <div>
+        行程-设备id：<input type="text" name="d" />
+        开始时间：<input type="text" name="s" />
+        <input type="submit" value="行程 查询" />
+    </div>
+    <br/>
+    <div>
+        结果信息：
+        @Html.Encode(ViewData["msg"])
+    </div>
+</form>

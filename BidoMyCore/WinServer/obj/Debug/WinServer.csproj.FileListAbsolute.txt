@@ -1,0 +1,10 @@
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\bin\Debug\WinServer.exe.config
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\bin\Debug\WinServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\bin\Debug\WinServer.pdb
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.csprojResolveAssemblyReference.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.Form1.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.Properties.Resources.resources
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.csproj.GenerateResource.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.csproj.CoreCompileInputs.cache
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.exe
+D:\ProjectCode\C#Test\NetCore\BidoMyCore\WinServer\obj\Debug\WinServer.pdb
