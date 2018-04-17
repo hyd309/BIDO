@@ -6,13 +6,20 @@
 <form action="/OTSSync/SyncData" method="post">
     <br />
     <div>
-        route表名：<input type="text" name="route" value="Vehicle_Route" />
-        location表名：<input type="text" name="location" value="" />
-        Event表名：<input type="text" name="event" value="" />
+        Event同步时间范围：<input type="text" name="eventFrom" value="2016-06" />格式：yyyy-MM
+        TO：<input type="text" name="eventTo" value="2016-12" />to为空表示同步到本月(现在时间)<br /><br />
+        location同步时间范围：<input type="text" name="locationFrom" value="2016-06-01" />格式：yyyy-MM-dd
+        TO：<input type="text" name="locationTo" value="2016-06-10" />to为空表示同步到今天<br /><br />
+        route一次性同步：<input type="text" name="routeName" value="" /><br />
         <input type="submit" value="Route同步" />
     </div>
     <div>
         <a href="/OTSSync/Search">查询界面</a>
+    </div>
+    <br /><br />
+    <div>
+        结果信息：
+        @ViewData["msg"]
     </div>
 </form>
 

@@ -22,49 +22,59 @@ namespace TableStoreWebApp
         BatchWriteRowRequest batchRequest = new BatchWriteRowRequest();
 
         private string TableName = "E_100000000";
+        private string SqlTableName = "Device_Alarm_";//Device_Alarm_201610
         public Event(TableStoreModel tableStoreModel)
         {
-            oTSClient = new OTSClient(tableStoreModel.PublicEnvironment == "1" ? tableStoreModel.endPointPublic : tableStoreModel.endPointPrivate, tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName);
+            oTSClient = OTSHelper.GetOTSClientEvent(tableStoreModel);
+            //oTSClient = new OTSClient(tableStoreModel.PublicEnvironment == "1" ? tableStoreModel.endPointPublic : tableStoreModel.endPointPrivate, tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName_Event);
         }
-        public void GetEventData(object tableName)
+        public void GetEventData(object dateFromTo)
         {
-            DataTable dt = new DataTable();
-            int start = 1;
-            bool nextId = true;
-            int indexStep = 100000;//***每次过滤id 10万的范围，id可能不是连续的
-            while (nextId)
+            string[] date = dateFromTo.ToString().Split('T');
+            DateTime dateFrom = Convert.ToDateTime(date[0] + " 00:00:00");
+            DateTime dateTo = Convert.ToDateTime(date[1] + " 00:00:00").AddMonths(1);
+            while (dateFrom < dateTo)
             {
-                using (SqlConnection conn = new SqlConnection(Startup.SqlConnecting))
+                string tableName = SqlTableName + dateFrom.ToString("yyyyMM");
+                DataTable dt = new DataTable();
+                long start = 0;
+                bool nextId = true;
+                int indexStep = 100000;//***每次过滤id 10万的范围，id可能不是连续的
+                while (nextId)
                 {
-                    try
+                    using (SqlConnection conn = new SqlConnection(Startup.SqlConnecting))
                     {
-                        string sql = "select distinct device_code,alarm_no,alarm_time,alarm_parameter,create_time,latitude,longitude,speed,direct from " + tableName
-                            + " where id between " + start + " and " + (start + indexStep);
-                        log.Debug(sql);
-                        start += indexStep;
-                        SqlCommand cmd = new SqlCommand(sql, conn);
-                        conn.Open();
-                        SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
-                        DataSet ds = new DataSet();
-                        sqlDataAdapter.Fill(ds);
-                        cmd.Dispose();
-                        conn.Close();
-                        nextId = ds.Tables[0].Rows.Count > 0;
-                        if (nextId)
+                        try
                         {
-                            TableStoreAddLocation(ds.Tables[0].Rows);
+                            string sql = "select  top " + indexStep + " id,device_code,alarm_no,alarm_time,alarm_parameter,create_time,latitude,longitude,speed,direct from " + tableName
+                                + " where id>"+ start+ " and device_code > 99999999999999 ORDER BY id";
+                            log.Debug(sql);
+                            SqlCommand cmd = new SqlCommand(sql, conn);
+                            conn.Open();
+                            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                            DataSet ds = new DataSet();
+                            sqlDataAdapter.Fill(ds);
+                            cmd.Dispose();
+                            conn.Close();
+                            nextId = ds.Tables[0].Rows.Count > 0;
+                            if (nextId)
+                            {
+                                start = Convert.ToInt64(ds.Tables[0].Rows[ds.Tables[0].Rows.Count - 1]["id"]);
+                                TableStoreAddLocation(ds.Tables[0].Rows);
+                            }
+                            else
+                            {
+                                log.Debug(tableName + "表所有记录处理完成！");
+                                break;
+                            }
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            log.Debug(tableName + "表所有记录处理完成！");
-                            break;
+                            log.Error("GetEventData=>访问数据库出错：" + ex.Message);
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        log.Error("GetLocationData=>访问数据库出错：" + ex.Message);
                     }
                 }
+                dateFrom = dateFrom.AddMonths(1);
             }
             log.Debug("--------End-------");
         }
@@ -102,7 +112,7 @@ namespace TableStoreWebApp
                     string primarykey = dr["device_code"].ToString()+";" + dr["alarm_time"].ToString() + ";" + alarm_no;
                     if (list.Contains(primarykey))
                     {
-                        log.Info(i+"发现重复记录"+ primarykey +"数据库记录：");
+                        log.Info(i+"发现重复记录"+ primarykey +"数据库记录：id="+dr["id"]);
                         continue;
                     }
                     list.Add(primarykey);
@@ -172,34 +182,42 @@ namespace TableStoreWebApp
 
         private void BatchWriteResult(BatchWriteRowResponse batchWriteRowResponse, int index, RowChanges rowChanges)
         {
-            if (batchWriteRowResponse.IsAllSucceed)
+            try
             {
-                log.Info(index + " 行数据批量提交成功！");
-            }
-            else
-            {
-                //把批量提交的数据，赋值给新的list，进行异常插入处理方法
-                //分析具体是哪个index行数据出错
-                var tableRows = batchWriteRowResponse.TableRespones;
-                var rows = tableRows[TableName];
-                for (int j = 0; j < rows.PutResponses.Count; j++)
+                if (batchWriteRowResponse.IsAllSucceed)
                 {
-                    if (rows.PutResponses[j].IsOK)
+                    log.Info(index + " 行数据批量提交成功！");
+                }
+                else
+                {
+                    //把批量提交的数据，赋值给新的list，进行异常插入处理方法
+                    //分析具体是哪个index行数据出错
+                    var tableRows = batchWriteRowResponse.TableRespones;
+                    var rows = tableRows[TableName];
+                    for (int j = 0; j < rows.PutResponses.Count; j++)
                     {
-                        continue;
-                    }
-                    else
-                    {
-                        log.Error(index + " 批量提交 问题数据在第【" + j + "】行");
-                        Task task = new Task(() => {
-                            var errorRow = rowChanges.PutOperations[j];
-                            //异步处理错误数据行
-                            PutErrorHandle putError = new PutErrorEvent();
-                            putError.HandlePutError(errorRow, TableName);
-                        });
-                        task.Start();
+                        if (rows.PutResponses[j].IsOK)
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            log.Error(index + " 批量提交 问题数据在第【" + j + "】行");
+                            Task task = new Task(() =>
+                            {
+                                var errorRow = rowChanges.PutOperations[j];
+                                //异步处理错误数据行
+                                PutErrorHandle putError = new PutErrorEvent();
+                                putError.HandlePutError(errorRow, TableName);
+                            });
+                            task.Start();
+                        }
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                log.Error("BatchWriteResult=>"+ex.Message);
             }
         }
     }

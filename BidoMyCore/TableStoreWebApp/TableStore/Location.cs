@@ -22,50 +22,65 @@ namespace TableStoreWebApp
         BatchWriteRowRequest batchRequest = new BatchWriteRowRequest();
 
         private string TableName = "L_100000000";
+        private string SqlTableName="Device_Location_";
         public Location(TableStoreModel tableStoreModel)
         {
-            oTSClient = new OTSClient(tableStoreModel.PublicEnvironment == "1" ? tableStoreModel.endPointPublic : tableStoreModel.endPointPrivate, tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName);
+            oTSClient = OTSHelper.GetOTSClientLocation(tableStoreModel);
         }
 
-        public void GetLocationData(object tableName)
+        public void GetLocationData(object dateFromTo)
         {
-            DataTable dt = new DataTable();
-            int start = 1;
-            bool nextId = true;
-            int indexStep = 100000;//***每次过滤id 10万的范围，id可能不是连续的
-            while (nextId)
+            log.Info(" dateFromTo=" + dateFromTo);
+            string[] date = dateFromTo.ToString().Split('T');
+            DateTime dateFrom = Convert.ToDateTime(date[0]+" 00:00:00");
+            DateTime dateTo = Convert.ToDateTime(date[1] + " 00:00:00").AddDays(1);
+            while (dateFrom < dateTo)
             {
-                using (SqlConnection conn = new SqlConnection(Startup.SqlConnecting))
+                string tableName = SqlTableName + dateFrom.ToString("yyyyMMdd");
+                DataTable dt = new DataTable();
+                long start = 0;
+                bool nextId = true;
+                int indexStep = 100000;//***每次过滤id 10万的范围，id可能不是连续的
+                while (nextId)
                 {
-                    try
+                    using (SqlConnection conn = new SqlConnection(Startup.SqlConnecting))
                     {
-                        string sql = "select distinct device_code,gps_time,latitude,longitude,speed,direct from " + tableName
-                            + " where id between " + start + " and " + (start + indexStep);
-                        log.Debug(sql);
-                        start += indexStep;
-                        SqlCommand cmd = new SqlCommand(sql, conn);
-                        conn.Open();
-                        SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
-                        DataSet ds = new DataSet();
-                        sqlDataAdapter.Fill(ds);
-                        cmd.Dispose();
-                        conn.Close();
-                        nextId = ds.Tables[0].Rows.Count > 0;
-                        if (nextId)
+                        try
                         {
-                            TableStoreAddLocation(ds.Tables[0].Rows);
+                            //string sql = "select distinct device_code,gps_time,latitude,longitude,speed,direct from " + tableName
+                            //    + " where id between " + start + " and " + (start + indexStep) + " and device_code > 99999999999999";//>=100000000000000
+
+                            string sql = "select top " + indexStep + " id,device_code,gps_time,latitude,longitude,speed,direct from " + tableName
+                               + " where id >" + start + " and device_code > 99999999999999  ORDER BY id";//>=100000000000000
+
+                            log.Debug(sql);
+                            start += indexStep;
+                            SqlCommand cmd = new SqlCommand(sql, conn);
+                            conn.Open();
+                            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                            DataSet ds = new DataSet();
+                            sqlDataAdapter.Fill(ds);
+                            cmd.Dispose();
+                            conn.Close();
+                            nextId = ds.Tables[0].Rows.Count > 0;
+                            if (nextId)
+                            {
+                                start = Convert.ToInt64(ds.Tables[0].Rows[ds.Tables[0].Rows.Count - 1]["id"]);
+                                TableStoreAddLocation(ds.Tables[0].Rows);
+                            }
+                            else
+                            {
+                                log.Debug(tableName + "表所有记录处理完成！");
+                                break;
+                            }
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            log.Debug(tableName + "表所有记录处理完成！");
-                            break;
+                            log.Error("GetLocationData=>访问数据库出错：" + ex.Message);
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        log.Error("GetLocationData=>访问数据库出错：" + ex.Message);
                     }
                 }
+                dateFrom=dateFrom.AddDays(1);
             }
             log.Debug("--------End-------");
         }
@@ -92,7 +107,7 @@ namespace TableStoreWebApp
                     string primarykey = dr["device_code"].ToString() + ";" + dr["gps_time"].ToString();
                     if (list.Contains(primarykey))
                     {
-                        log.Info(i+"发现重复记录" + primarykey + "数据库记录：");
+                        log.Info(i+"发现重复记录" + primarykey + "数据库记录：id = "+dr["id"]);
                         continue;
                     }
                     list.Add(primarykey);

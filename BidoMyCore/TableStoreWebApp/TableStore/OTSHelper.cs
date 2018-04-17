@@ -13,15 +13,43 @@ namespace TableStoreWebApp
 {
     public class OTSHelper
     {
-        public static OTSClient _oTSClient;
-        public static OTSClient GetOTSClient(TableStoreModel tableStoreModel)
+        public static OTSClient _oTSClient_Event;
+        public static OTSClient _oTSClient_Location;
+        public static OTSClient _oTSClient_Route;
+        public static OTSClient GetOTSClientEvent(TableStoreModel tableStoreModel)
         {
-            if (_oTSClient==null)
+            if (_oTSClient_Event == null)
             {
-                _oTSClient = new OTSClient(tableStoreModel.PublicEnvironment == "1" ? tableStoreModel.endPointPublic : tableStoreModel.endPointPrivate,
-                    tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName);
+                _oTSClient_Event = new OTSClient(GetEndPoint(tableStoreModel,tableStoreModel.instanceName_Event),
+                    tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName_Event);
             }
-            return _oTSClient;
+            return _oTSClient_Event;
+        }
+
+        public static OTSClient GetOTSClientLocation(TableStoreModel tableStoreModel)
+        {
+            if (_oTSClient_Location == null)
+            {
+                _oTSClient_Location = new OTSClient(GetEndPoint(tableStoreModel, tableStoreModel.instanceName_Location),
+                    tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName_Location);
+            }
+            return _oTSClient_Location;
+        }
+
+        public static OTSClient GetOTSClientRoute(TableStoreModel tableStoreModel)
+        {
+            if (_oTSClient_Route == null)
+            {
+                _oTSClient_Route = new OTSClient(GetEndPoint(tableStoreModel, tableStoreModel.instanceName_Route),
+                    tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName_Route);
+            }
+            return _oTSClient_Route;
+        }
+
+        private static string GetEndPoint(TableStoreModel tableStoreModel,string keyName)
+        {
+            string endPoint = tableStoreModel.PublicEnvironment == "1" ? tableStoreModel.endPointPublic : tableStoreModel.endPointPrivate;
+            return string.Format(endPoint,keyName);
         }
     }
 }

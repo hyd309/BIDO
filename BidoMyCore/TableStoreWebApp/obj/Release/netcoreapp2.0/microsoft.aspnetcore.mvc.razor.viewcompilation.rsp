@@ -6,6 +6,7 @@ D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Home\Contact.cshtml
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Home\Index.cshtml
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\OTSSync\Index.cshtml
+--file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\OTSSync\Search.cshtml
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\OTSSync\Success.cshtml
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Shared\Error.cshtml
 --file=D:\ProjectCode\C#Test\NetCore\BidoMyCore\TableStoreWebApp\Views\Shared\_Layout.cshtml

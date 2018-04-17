@@ -16,6 +16,8 @@ namespace TableStoreWebApp.Models
         public string endPointPrivate { get; set; }
         public string accessKeyID { get; set; }
         public string accessKeySecret { get; set; }
-        public string instanceName { get; set; }
+        public string instanceName_Location { get; set; }
+        public string instanceName_Event { get; set; }
+        public string instanceName_Route { get; set; }
     }
 }

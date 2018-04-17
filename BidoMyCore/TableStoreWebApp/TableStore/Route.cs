@@ -22,15 +22,16 @@ namespace TableStoreWebApp
         OTSClient oTSClient;// = OTSHelper.GetOTSClient();
         BatchWriteRowRequest batchRequest = new BatchWriteRowRequest();
         private string TableName = "Route";
+        private string SqlTableName = "Vehicle_Route";
         public Route(TableStoreModel tableStoreModel)
         {
-            oTSClient = new OTSClient(tableStoreModel.PublicEnvironment=="1"? tableStoreModel.endPointPublic: tableStoreModel.endPointPrivate, tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName);
+            oTSClient = new OTSClient(tableStoreModel.PublicEnvironment=="1"? tableStoreModel.endPointPublic: tableStoreModel.endPointPrivate, tableStoreModel.accessKeyID, tableStoreModel.accessKeySecret, tableStoreModel.instanceName_Route);
         }
 
         public void GetRoutenData(object tableName)
         {
             DataTable dt = new DataTable();
-            int start = 1;
+            int start = 0;
             bool nextId = true;
             int indexStep = 100000;//***每次过滤id 10万的范围，id可能不是连续的
             while (nextId)
@@ -50,8 +51,8 @@ namespace TableStoreWebApp
                          * idleTime 怠速时间
                          */
                         string sql = @"select distinct device_code,startTime,endTime,startLatitude,endLatitude,startLongitude,endLongitude,drivingTime,mileage,topSpeed" +
-                            ",speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from " + tableName.ToString()
-                            + " where id between " + start + " and " + (start + indexStep);
+                            ",speedingTime,highSpeedTime,mediumSpeedTime,lowSpeedTime,idleTime,rapidAccelerationTimes,rapidDecelerationTimes,sharpTurnTimes from " + SqlTableName.ToString()
+                            + " where id between " + start + " and " + (start + indexStep) + " and device_code > 99999999999999 ";
                         log.Debug(sql);
                         start += indexStep;
                         SqlCommand cmd = new SqlCommand(sql, conn);
@@ -66,8 +67,9 @@ namespace TableStoreWebApp
                         {
                             TableStoreAddLocation(ds.Tables[0].Rows);
                         }
-                        else {
-                            log.Debug(tableName + "表所有记录处理完成！");
+                        else
+                        {
+                            log.Debug(SqlTableName + "表所有记录处理完成！");
                             break;
                         }
                     }

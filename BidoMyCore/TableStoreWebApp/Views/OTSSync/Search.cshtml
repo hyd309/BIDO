@@ -16,7 +16,7 @@
 <form action="/OTSSync/SearchEvent" method="post">
     <br />
     <div>
-        时间-设备id：<input type="text" name="d" />
+        事件-设备id：<input type="text" name="d" />
         事件时间：<input type="text" name="et" />
         事件ID：<input type="text" name="ei" />
         <input type="submit" value="事件 查询" />
@@ -31,7 +31,8 @@
     </div>
     <br/>
     <div>
-        结果信息：
-        @Html.Encode(ViewData["msg"])
+        结果信息：<br />
+             <b>@ViewData["pk"]</b><br />
+        @ViewData["att"]
     </div>
 </form>

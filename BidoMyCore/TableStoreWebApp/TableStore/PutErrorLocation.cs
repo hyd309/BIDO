@@ -17,7 +17,7 @@ namespace TableStoreWebApp
         {
             try
             {
-                OTSClient otsClient = OTSHelper._oTSClient;
+                OTSClient otsClient = OTSHelper._oTSClient_Location;
                 var request = new PutRowRequest(tableName, row.Item1, row.Item2, row.Item3);
                 PutRowResponse rowResponse = otsClient.PutRow(request);
                 log.Info("数据，操作成功！");
